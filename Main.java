@@ -1,20 +1,37 @@
 public class Main {
-    public static void main(String...args){
+    public static void main(String[] args) {
 
-        String text1 = "Hi Martin!";
-        String text2 = "Hi Maks!";
-        String text3 = "Nice";
+        WeatherForecast weatherForecastBox = new WeatherForecast ();
 
-        int number1 = 8;
-        int number2 = 16;
-        int number3 = 80;
+        System.out.println(weatherForecastBox.dayOfTheWeek);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherForTheDay);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay);
 
-        System.out.println(text1);
-        System.out.println(text2);
-        System.out.println(text3);
+        System.out.println(weatherForecastBox.dayOfTheWeek2);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherForTheDay2);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay2 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay2);
 
-        System.out.println(number1);
-        System.out.println(number2);
-        System.out.println(number3);
+        System.out.println(weatherForecastBox.dayOfTheWeek3);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherForTheDay3);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay3 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay3);
+
+        System.out.println(weatherForecastBox.dayOfTheWeek4);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherFotTheDay4);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay4 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay4);
+
+        System.out.println(weatherForecastBox.dayOfTheWeek5);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherFotTheDay5);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay5 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay5);
+
+        System.out.println(weatherForecastBox.dayOfTheWeek6);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherFotTheDay6);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay6 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay6);
+
+        System.out.println(weatherForecastBox.dayOfTheWeek7);
+        System.out.println("Погода на день: " + weatherForecastBox.weatherFotTheDay7);
+        System.out.println("Оценка на день: " + weatherForecastBox.evaluationOfTheDay7 + " из " + weatherForecastBox.scale + ". " + weatherForecastBox.assessmentForTheDay7);
+        
+
+
     }
 }
